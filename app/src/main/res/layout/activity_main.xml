@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:deviceIds="wear"
+    android:background="@color/black"
+    tools:context=".presentation.MainActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_boxedEdges="all">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            app:layout_boxedEdges="all"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="-25dp"
+            android:background="@color/black">
+
+
+            <ImageButton
+                android:id="@+id/btnToChatOne"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/discussions_button"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/discussions"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:layout_marginTop="95dp"
+                android:layout_marginLeft="30dp"/>
+            <ImageButton
+                android:id="@+id/btnToChatTwo"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/discussions_button2"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="40dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/discussions"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:layout_marginTop="95dp"
+                android:layout_marginLeft="115dp"/>
+            <ImageButton
+                android:id="@+id/btnToMovies"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/favorites_button"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="40dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favorites"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:layout_marginTop="175dp"
+                android:layout_marginLeft="35dp"/>
+        </FrameLayout>
+    </ScrollView>
+</androidx.wear.widget.BoxInsetLayout>

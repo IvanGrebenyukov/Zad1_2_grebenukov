@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Zad1_2_grebenukov</string>
+    <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+    <string name="title">WorldCinema</string>
+    <string name="email">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="signIn">Войти</string>
+    <string name="your_password">Ваш пароль</string>
+    <string name="example_login">you@example.com</string>
+    <string name="discussions">Обсуждения</string>
+    <string name="favorites">Избранное</string>
+    <string name="newString">Новое</string>
+    <string name="title_activity_main_screen">Main_Screen</string>
+    <string name="title_activity_chat_list_screen">Chat_List_Screen</string>
+    <string name="lucifer">Lucifer</string>
+    <string name="theWitcher">The Witcher</string>
+    <string name="lost">LOST</string>
+    <string name="Witcher">Witcher</string>
+    <string name="Jessica">Jessica Jones</string>
+    <string name="Magicans">Magicans</string>
+    <string name="theMagicans">The Magicans</string>
+    <string name="title_activity_movies_screen">Movies_Screen</string>
+</resources>
